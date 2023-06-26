@@ -1,0 +1,71 @@
+/* Default Settings Start */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #473ce0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  background-image: url("https://previews.123rf.com/images/sapunkele/sapunkele1701/sapunkele170100046/70376579-patr%C3%B3n-sin-fisuras-con-dibujos-animados-lindo-helados-dibujado-a-mano-de-vectores-de-fondo-rosa.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  display: block;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 0 0 5px #f0f3bd;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  /* transition: all 0.5s; */
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0b0b0b;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Default Settings End */
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas con un ancho máximo de 768px */
+  main {
+      padding: 0px;
+   }
+   #Star {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para pantallas con un ancho máximo de 480px */
+  main {
+      padding: 0px;
+  }
+  #Star {
+    display: none;
+  }
+}

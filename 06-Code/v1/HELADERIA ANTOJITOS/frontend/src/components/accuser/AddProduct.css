@@ -1,0 +1,54 @@
+
+.form-btn button.button-add-product { /*boton agregar producto*/
+  width: 100%;
+  padding: 15px 0;
+  background-color: #030303;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  transition: all 0.5s;
+  box-shadow: 0 0 5px #ffffff;
+  border-radius: 0px;
+}
+
+.passwords form {  /*caja emergente de helados agregar*/
+    width: auto;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/257/225/non_2x/ice-cream-background-for-kids-seamless-pattern-ice-cream-cone-hand-drawn-design-in-cartoon-style-use-for-prints-wallpapers-decorations-textiles-illustration-vector.jpg");
+    padding: 3px 5px;
+    background-size: cover;
+    border-radius: 7px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin: 50px 0 0 0;
+  }
+
+.passwords form .form-group {
+  margin: 15px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.passwords form .form-group label {
+  margin-bottom: 5px;
+}
+
+.passwords form .form-group input { /* label de datos*/
+  height: 40px;
+  border: 1px solid #5bc9f8;
+  padding: 5px 15px;
+  outline: none;
+  color: #050505;
+  border-radius: 10px;
+}
+
+.wrapper-add-product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}

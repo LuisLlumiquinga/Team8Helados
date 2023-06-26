@@ -1,0 +1,291 @@
+.filter-row {
+    padding: 1em;
+    height: 85vh;
+    height: 170vh;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/52961wide.jpg);
+    flex-wrap: wrap;
+}
+.seller-body2 {
+    padding: 20px;
+    margin-bottom: -50px;
+    box-shadow: 1px 2px 11px 4px rgba(10, 63, 63, 0.15);
+    border-radius: 13%;
+    border: solid 0.1px;
+    margin-top: 1rem;
+    background-color: #04a53a;
+    border-radius: 0.5rem;
+    position:relative;
+    height: auto;
+    left: 600px;
+    top:-5rem;
+    width: 400px;
+    transition:transform .4s;
+  }
+  .titulovendedor{
+    letter-spacing: 1.3px;
+    color: black;
+    bottom: 20px;
+    bottom: unset;
+  }
+  
+.seller-info2{
+    top: 191px;
+    background-color: #04a53a;
+    box-shadow: 1px 2px 11px 4px rgba(10, 63, 63, 0.15);
+    width: 190px;
+    height: 220px;
+    left:380px ;
+    border-radius: 5%;
+    box-shadow: 0 2px 8px rgba(18, 18, 18, 0.96);
+}
+.filter-row .filter-col:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    justify-content: left;
+    flex-direction: row-reverse;
+    /**/
+    margin-top: 6rem;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child input {
+    background: url(https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png) no-repeat 10px 10px;
+    background-size: 24px;
+    border: transparent;
+    border-bottom: solid 1px #010101;
+    padding: 1rem;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border: solid 3px;
+    font-size: 20pt;
+    float: left;
+    color: #000000;
+    font-style: bold;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 3rem;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child input:focus {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px #000000;
+    color: #024205;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child button {
+    background-color: #000000;
+    padding: 10px 25px;
+    border: none;
+    box-shadow: 0 0 5px #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.filter-row .filter-col:first-child .filter-group:last-child button:hover {
+    background-color: #000000;
+    color: #000000;
+}
+
+.filter-cards {
+    flex-wrap: wrap;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    grid-gap: 20px 40px;
+    margin-bottom: 1em;
+    /**/
+}
+
+.filter-card {  /*cuadro grande añadir al carrito*/
+    margin: 5px;
+    background-color: #ffffffd2;
+    border-radius: 0px;
+    box-shadow: 0 2px 20px rgba(18, 18, 18, 0.96);
+    overflow: hidden;
+    width: 230px;
+    height: auto;
+    transition: all 0.5s;
+    border: solid 0.1px;
+    border-image: linear-gradient(to right, #000000, #000000);
+}
+
+
+.filter-card:hover {
+    transform: scale(1.02);
+}
+
+.card-header { /*cuadro del producto*/
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.card-header .card-sellers {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 1px #485b63);
+    height: 50px;
+    margin-right: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0;
+    background-color: #ffffff;
+    padding: 5px;
+    color: #000000;
+}
+
+.card-body a {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.card-body span.category {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #000000;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.card-body span.price {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+ 
+.card-header img {
+        width: 180px;
+        height: 120px;
+        border: solid 0.1px;
+        border-radius: 20px;
+        box-shadow: 0 2px 8px rgba(18, 18, 18, 0.96);
+    }
+
+.filter-row .filter-col:last-child .card-footer {
+    margin: 8px 0;
+    padding: 15px;
+}
+
+.filter-row .filter-col:last-child .card-footer button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(6, 6, 6);
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 0 5px #707069;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.filter-row .filter-col:last-child button:hover {
+    background-color: #18b0f1;
+    color: #000000;
+}
+
+.filter-pagination {
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    bottom: 0;
+    flex-wrap: nowrap;
+}
+
+.filter-pagination ul {
+    display: flex;
+    background-color: #2f5f74;
+}
+
+.filter-pagination ul li {
+    border: 0.5px solid #485b63;
+    padding: 5px;
+}
+
+.filter-pagination ul li:hover {
+    background-color: #2f5f74;
+}
+
+.filter-pagination ul li:hover a {
+    color: #ffffff;
+}
+
+.filter-pagination ul li a {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.pagi-active {
+    background-color: #000000d3;
+}
+
+.filter-pagination ul li.pagi-active a,
+.filter-pagination ul li:hover a {
+    color: #ffffff;
+}
+
+@media (max-width: 900px) {
+    .filter-row filter-col:first-child {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .filter-row {
+        height: auto;
+      
+    }
+    .filter-col:first-child .filter-group:last-child input {
+      width: 100%;
+    }
+    .filter-cards {
+      flex-direction: column;
+      width: fit-content;
+      height: fit-content;
+      margin-left: 15%;
+      left: 16%;
+    }
+    .filter-card {
+      width: 100%;
+      height: auto;
+    }
+  }

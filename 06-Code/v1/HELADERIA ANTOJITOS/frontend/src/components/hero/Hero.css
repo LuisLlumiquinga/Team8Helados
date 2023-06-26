@@ -1,0 +1,146 @@
+.ctn-wrapper-landing {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/vector-premium/waffles-vector-fondo-helado-cremoso_53876-163844.jpg?w=2000");
+}
+
+.ctn-images-hero {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #309b6a; */
+    margin: 100px;
+}
+@media only screen and (max-width: 480px) {
+  .landing {
+    
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    margin-top: 40%;
+  }
+  .ctn-wrapper-landing {
+    background-image: url("sdhttps://img.freepik.com/vector-premium/waffles-vector-fondo-helado-cremoso_53876-163844.jpg?w=2000");
+  }
+  .ctn-img-bg-3 img.third {
+    display: none;
+    animation: none;
+    transform: none;
+  }
+  .ctn-img-bg-2 img.second {
+    display: none;
+    animation: none;
+    transform: none;
+  }
+  .ctn-img-bg-1 img.first {
+    display: none;
+    animation: none;
+    transform: none;
+  }
+  .ctn-img-bg-4 img.fourth{
+  display: none;
+  animation: none;
+  transform: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+    .landing {
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+      margin-top: 40%;
+    }
+    .ctn-wrapper-landing {
+      background-image: url("https://img.freepik.com/vector-premium/waffles-vector-fondo-helado-cremoso_53876-163844.jpg?w=2000");
+    }
+  
+    .ctn-wrapper-landing {
+      flex-direction: column;
+
+    }
+  
+    .ctn-land-hero {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+  
+    .ctn-land-hero a {
+      text-decoration: none;
+    }
+  
+    .ctn-images-hero {
+      width: 100%;
+      margin: 50px;
+      display: none;
+    }
+  
+    .ctn-img-bg-1,
+    .ctn-img-bg-2,
+    .ctn-img-bg-3 {
+      position: absolute;
+      width: 20vw;
+      height: auto;
+      z-index: 9;
+    }
+  
+    .ctn-img-bg-4 {
+      bottom: 5%;
+      right: 20%;
+      width: 50px;
+    }
+  
+    .ctn-img-bg-1 {
+      width: 120px;
+    }
+  
+    .ctn-img-bg-2 {
+      width: 120px;
+    }
+  
+    .ctn-text-1 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .ctn-text-1 span {
+      font-size: 35px;
+      text-align: center;
+      letter-spacing: 5px;
+      margin-top: 20%;
+    }
+  
+    .ctn-text-2 span {
+      font-size: 14px;
+      margin: 20px 0;
+      letter-spacing: 2px;
+      
+    }
+    @media (max-width: 768px) {
+      .ctn-images-hero {
+        margin: 20px;
+        display: none;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .ctn-images-hero {
+        margin: 10px;
+        display: none;
+      }
+    }
+}
+
