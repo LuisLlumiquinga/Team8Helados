@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url('https://img.freepik.com/vector-premium/fondo-estructura-molecular-plantilla-ciencia_230610-332.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+}
+  /*body {background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));}
+  */
+.App {
+  text-align: center;
+}
+.boton {
+  border: 1px solid #84b6f4; 
+  padding: 10px; 
+  background-color: #84b6f4; 
+  color: black; 
+  text-decoration: none;
+  text-transform: uppercase; 
+  font-family: 'Helvetica', sans-serif; 
+  border-radius: 50px; 
+  }
+  .Buscador {
+    background-size: 24px;
+    width: 450px;
+    height: 35px;
+    border: solid 2.5px;
+    font-size: 15pt;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    border-color: #2e518b;
+}
+.info-table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 20px;
+  border: 2px solid black;
+  margin: 20px auto;
+}
+.info-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.info-table td:first-child {
+  font-weight: bold;
+  background-color: rgb(148, 143, 148);
+}
+table {
+  background-color: white;
+}
+.linea{
+  border: solid 1.5px;
+  border-color: #2e518b;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card{
+  text-align: left;
+} 
+.c {
+  color: black;
+  text-align: center;
+}
